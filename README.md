@@ -4,12 +4,24 @@
 
 - JS/JavScript
 
-## Installation/run
+## Installation
 
 ```bash
 # After cloning the repo, install deps
 npm install
+```
 
+## Running
+
+```bash
 # After installing run the app as
-npx ts-node cloc.ts file.js
+npx ts-node cloc.ts /path/to/file.js
+# or
+npx ts-node cloc.ts /path/to/directory # for multiple files
+```
+
+## Testing
+
+```bash
+npm test # Runs jest tests
 ```
