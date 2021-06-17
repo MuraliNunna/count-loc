@@ -1,4 +1,3 @@
-import { string } from "cmd-ts";
 import { SyntaxToken } from "../../interfaces";
 
 const CLASS_TOKENS: SyntaxToken[] = [
